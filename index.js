@@ -14,3 +14,11 @@ function nowServing() {
     return "There is nobody waiting to be served."
   }
 }
+
+function currentLine() {
+  if (true) {
+
+  } else {
+    return "The line is currently empty."
+  }
+}
