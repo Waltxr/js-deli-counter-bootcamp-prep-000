@@ -6,6 +6,7 @@ function takeANumber(katzDeliLine, name) {
 }
 
 function nowServing() {
-  return katzDeliLine[0];
+  var servingNow = katzDeliLine[0];
   katzDeliLine = katzDeliLine.slice(1, katzDeliLine.length - 1);
+  return servingNow
 }
