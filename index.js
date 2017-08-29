@@ -21,7 +21,7 @@ function currentLine(line) {
     var i = 0
 
     while (i < line.length) {
-      string = string + line[i] + 1 + line[i];
+      theLine = theLine + line[i] + 1 + line[i];
       i++;
     }
     return theLine
