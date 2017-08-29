@@ -17,11 +17,11 @@ function nowServing() {
 
 function currentLine(line) {
   if (line.length > 0) {
-    var theLine = "The line is currently: "
+    var theLine = "The line is currently:"
     var i = 0
 
     while (i < line.length) {
-      theLine = theLine + (i + 1) + ". " + line[i];
+      theLine = theLine + " " + (i + 1) + ". " + line[i];
       i++;
     }
     return theLine
