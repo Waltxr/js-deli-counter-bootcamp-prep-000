@@ -24,7 +24,7 @@ function currentLine(line) {
       theLine = theLine + " " + (i + 1) + ". " + line[i] + ",";
       i++;
     }
-    return theLine
+    return theLine.slice(0, -1)
   } else {
     return "The line is currently empty."
   }
