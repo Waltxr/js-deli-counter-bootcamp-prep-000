@@ -17,12 +17,14 @@ function nowServing() {
 
 function currentLine(line) {
   if (line.length > 0) {
-    var string = "The line is currently: "
+    var theline = "The line is currently: "
     var i = 0
-    
+
     while (i < line.length) {
-      
+      string = string + line[i] + 1 + line[i];
+      i++;
     }
+    return theline
   } else {
     return "The line is currently empty."
   }
